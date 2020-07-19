@@ -140,7 +140,7 @@ interface ERC721 /* is ERC165 */ {
     /// @return True if `_operator` is an approved operator for `_owner`, false otherwise
     function isApprovedForAll(address _owner, address _operator) external view returns (bool);
 }
-
+ 
 contract ERC721Token is ERC721 {
     using AddressUtils for address;
     mapping(address => uint) private ownerToTokenCount;
