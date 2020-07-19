@@ -26,7 +26,7 @@ library AddressUtils
      */
     assembly { size := extcodesize(_addr) } // solhint-disable-line
     addressCheck = size > 0;
-  }
+  } 
 
 }
 
