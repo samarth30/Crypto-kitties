@@ -176,7 +176,7 @@ contract ERC721Token is ERC721 {
     
     function safeTransferFrom(address _from, address _to, uint _tokenId, bytes calldata data) external payable {
         _safeTransferFrom(_from, _to, _tokenId, data);
-    }
+    } 
 
     function safeTransferFrom(address _from, address _to, uint _tokenId) external payable {
         _safeTransferFrom(_from, _to, _tokenId, ""); 
