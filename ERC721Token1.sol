@@ -239,4 +239,4 @@ contract ERC721Token is ERC721 {
         _;
     }
 }
-
+ 
