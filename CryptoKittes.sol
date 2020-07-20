@@ -54,4 +54,5 @@ contract cryptoKitties is ERC721Token{
    function _random(uint max) internal view returns(uint){
        return uint(keccak256(abi.encodePacked(block.timestamp,block.difficulty))) % max;
    }
+
 }
