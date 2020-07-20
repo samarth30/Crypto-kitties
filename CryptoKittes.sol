@@ -22,6 +22,7 @@ contract cryptoKitties is ERC721Token{
    ERC721Token(_name,_symbol,_tokenURIBase)
    public {
        admin = msg.sender;
+
    }
 
     
