@@ -214,7 +214,7 @@ contract ERC721Token is ERC721 {
             require(retval == MAGIC_ON_ERC721_RECEIVED, 'recipient SC cannot handle ERC721 tokens');
         }
     }
-    
+     
     function _transfer(address _from, address _to, uint _tokenId) 
         internal 
         canTransfer(_tokenId) {
@@ -239,4 +239,4 @@ contract ERC721Token is ERC721 {
         _;
     }
 }
- 
+   
