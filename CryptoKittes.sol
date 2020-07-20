@@ -23,6 +23,7 @@ contract cryptoKitties is ERC721Token{
    public {
        admin = msg.sender;
    }
+
     
    function mint() external{
        require(msg.sender == admin,"you are not authorized");
